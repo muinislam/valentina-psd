@@ -1,3 +1,6 @@
+html,body{
+    scroll-behavior: unset;
+}
 *{
     padding:0;
     margin:0;
@@ -709,7 +712,7 @@ nav{
     color:#fff;
 }
 .slick-slide{
-    margin-right: 20px;
+    margin: 0 20px;
 }
 .ceo_item{
     width:570px;
@@ -983,3 +986,24 @@ footer{
     cursor: pointer;
 }
 /* === footer_last_part end === */
+
+/* ===== top to bottom part =====  */
+.top_to_bottom{
+    position: fixed;
+    right:50px;
+    bottom:50px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #d50a51;
+    font-size: 18px;
+    color:#fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+.top_to_bottom:hover{
+    background-color: #8a5e3b;
+}
